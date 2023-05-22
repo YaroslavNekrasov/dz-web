@@ -1,0 +1,46 @@
+.about {
+  background-image: url(../img/png/aboutback.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.about_parag {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 110%;
+  color: rgba(255, 255, 255, 0.6);
+  padding-top: 21px;
+}
+
+.about-point_number {
+  font-family: "Monument Extended", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 48px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #ffffff;
+}
+
+.about-point_parag {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 16px;
+  line-height: 110%;
+  color: rgba(255, 255, 255, 0.7);
+  width: 283px;
+}
+
+.about-point {
+  display: flex;
+  padding-bottom: 117px;
+}
+
+.about-points {
+  display: flex;
+  justify-content: space-between;
+  margin-top: 95px;
+}

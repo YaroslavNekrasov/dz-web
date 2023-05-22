@@ -1,0 +1,121 @@
+.projects {
+  background-image: url(../img/png/projectsback.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.projects-list {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 48px;
+  padding-bottom: 94px;
+}
+
+.projects-list_item {
+  position: relative;
+  cursor: pointer;
+  display: flex;
+  flex-direction: column;
+  overflow: hidden;
+}
+
+.projects-list_item._active .projects-list_item-texts {
+  visibility: visible;
+  transform: translateY(0px);
+  transition: all 0.3s ease 0.3s;
+}
+
+.projects-list_item-texts {
+  width: 100%;
+  position: absolute;
+  visibility: hidden;
+  bottom: 0;
+  left: 0;
+  background: linear-gradient(
+      0deg,
+      rgba(24, 24, 24, 0.69),
+      rgba(24, 24, 24, 0.69)
+    ),
+    rgba(24, 24, 24, 0.01);
+  backdrop-filter: blur(10px);
+  transform: translateY(170px);
+}
+
+.projects-list_item-title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  padding: 10px 0 0 20px;
+}
+
+.projects-list_item-prop {
+  display: flex;
+  justify-content: space-between;
+  padding: 4px 20px 0;
+}
+
+.list_item-prop-title {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 12px;
+  line-height: 150%;
+  color: rgba(255, 255, 255, 0.6);
+  text-align: center;
+}
+
+.list_item-prop-title span {
+  font-family: Montserrat;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 12px;
+  line-height: 150%;
+  color: rgba(255, 255, 255);
+}
+
+.projects-list_item-price {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 500;
+  font-size: 18px;
+  line-height: 150%;
+  color: #ffffff;
+  padding: 4px 0;
+  text-align: center;
+  border-top: 1.4px solid rgba(255, 255, 255, 0.5);
+  border-bottom: 1.4px solid rgba(255, 255, 255, 0.5);
+  margin: 22px 0 27px;
+}
+
+.projects-list_item._active img {
+  width: 380px;
+  height: 614px;
+  object-fit: cover;
+  filter: grayscale(0%) brightness(100%);
+}
+
+.projects-list_item img {
+  width: 180px;
+  height: 614px;
+  transition: 0.3s ease;
+  object-fit: cover;
+  filter: grayscale(100%) brightness(40%);
+}
+
+.projects-list_item:nth-child(5) img {
+  width: 180px;
+  height: 614px;
+  transition: 0.3s ease;
+  object-fit: cover;
+  filter: grayscale(100%);
+}
+
+.projects-list_item:nth-child(5)._active img {
+  width: 380px;
+  height: 614px;
+  object-fit: cover;
+  filter: grayscale(0%);
+}
