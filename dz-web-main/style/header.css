@@ -1,0 +1,111 @@
+header {
+  background-image: url(../img/png/mainback.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+}
+
+.logo {
+  font-family: "Monument Extended", sans-serif;
+  font-style: normal;
+  font-weight: 800;
+  font-size: 36px;
+  line-height: 110%;
+  letter-spacing: -2px;
+  text-transform: uppercase;
+  color: #ffffff;
+  user-select: none;
+}
+
+.nav {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  padding-top: 20px;
+}
+
+.nav-left {
+  padding-right: 133px;
+}
+
+.nav-right {
+  padding-left: 133px;
+}
+
+.left-nav_item {
+  cursor: pointer;
+  user-select: none;
+}
+
+.right-nav_item {
+  cursor: pointer;
+  user-select: none;
+}
+
+.left-nav_item:first-child {
+  margin-right: 107px;
+}
+
+.right-nav_item:last-child {
+  margin-left: 107px;
+}
+
+.main-texts {
+  display: flex;
+  flex-direction: column;
+  align-items: center;
+}
+
+.main-texts_title {
+  font-family: "Monument Extended", sans-serif;
+  font-weight: 800;
+  font-size: 96px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #ffffff;
+  padding-top: 248px;
+  text-align: center;
+}
+
+.main-text_subtitle {
+  font-family: "Monument Extended", sans-serif;
+  font-size: 36px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #ffffff;
+  width: 685px;
+  text-align: center;
+}
+
+.main-text_parag {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 110%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.7);
+  padding-top: 20px;
+  width: 747px;
+}
+
+.more {
+  display: flex;
+  align-items: center;
+  flex-direction: column;
+  text-decoration: none;
+}
+
+.more_parag {
+  font-family: "Montserrat", sans-serif;
+  font-size: 18px;
+  line-height: 110%;
+  text-align: center;
+  color: rgba(255, 255, 255, 0.4);
+  margin-top: 260px;
+  padding-bottom: 20px;
+  cursor: pointer;
+  text-decoration: none;
+}
+
+.more_arrow {
+  margin-bottom: 37px;
+  cursor: pointer;
+}

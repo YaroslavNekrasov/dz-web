@@ -1,0 +1,168 @@
+.reviews {
+  background-image: url(../img/png/reviewsback.png);
+  background-position: center;
+  background-size: cover;
+}
+
+.reviews__list {
+  display: flex;
+}
+
+.reviews-list_item {
+  width: 589px;
+  height: 303px;
+}
+
+.reviews-person {
+  display: flex;
+}
+
+.review {
+  display: none;
+}
+
+.review.active {
+  display: block;
+}
+
+.review-choose {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin-top: 33px;
+  padding-bottom: 94px;
+}
+
+.anim {
+  margin: 0 auto;
+  flex-flow: row;
+  justify-content: center;
+  display: none;
+  padding-bottom: 70px;
+  height: 63px;
+}
+
+.anim.active {
+  display: flex;
+}
+
+.circle-1 {
+  animation-delay: 0.1s;
+}
+.circle-2 {
+  animation-delay: 0.2s;
+}
+.circle-3 {
+  animation-delay: 0.3s;
+}
+.circle-4 {
+  animation-delay: 0.4s;
+}
+.circle-5 {
+  animation-delay: 0.5s;
+}
+.circle-6 {
+  animation-delay: 0.6s;
+}
+.circle-7 {
+  animation-delay: 0.7s;
+}
+.circle-8 {
+  animation-delay: 0.8s;
+}
+
+.slider {
+  width: 100%;
+  overflow: hidden;
+  padding-top: 48px;
+}
+
+.slides {
+  width: 500%;
+  display: flex;
+}
+
+.slides input {
+  display: none;
+}
+
+.slide {
+  width: 589px;
+  height: 303px;
+  background: rgba(47, 45, 44, 0.4);
+  box-shadow: 0px 0px 60px rgba(0, 0, 0, 0.12);
+  margin-right: 54px;
+  transition: ease 0.3s;
+}
+
+.navigation-manual {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  margin: 38px 0 95px;
+  user-select: none;
+}
+
+.manual-btn {
+  width: 6px;
+  height: 6px;
+  background: #ffffff;
+  opacity: 0.3;
+  border-radius: 56px;
+  margin: 2.5px;
+  transition: ease 0.3s;
+}
+
+.manual-btn._active {
+  width: 26px;
+  opacity: 1;
+}
+
+#radio1:checked ~ .first {
+  margin-left: 0;
+}
+#radio2:checked ~ .first {
+  margin-left: -7.3%;
+}
+#radio3:checked ~ .first {
+  margin-left: -14.6%;
+}
+#radio4:checked ~ .first {
+  margin-left: -22%;
+}
+
+.slide_parag {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 14px;
+  line-height: 110%;
+  color: #ffffff;
+  padding: 32px 14px 35px 24px;
+  user-select: none;
+}
+
+.slide_name {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: normal;
+  font-size: 18px;
+  line-height: 110%;
+  color: #ffffff;
+  margin: 31px 0 0 11px;
+  user-select: none;
+}
+
+.slide_name span {
+  font-family: "Montserrat", sans-serif;
+  font-style: normal;
+  font-weight: 300;
+  font-size: 10px;
+  line-height: 110%;
+  color: rgba(255, 255, 255, 0.4);
+  user-select: none;
+}
+
+.reviews-person img {
+  margin: 31px 0 0 24px;
+}

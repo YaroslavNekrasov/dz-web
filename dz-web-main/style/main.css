@@ -1,0 +1,19 @@
+.container {
+  width: 80%;
+  max-width: 1540px;
+  margin: 0 auto;
+}
+
+.section_title {
+  padding-top: 102px;
+  font-family: "Monument Extended", sans-serif;
+  font-size: 36px;
+  line-height: 110%;
+  text-transform: uppercase;
+  color: #ffffff;
+  letter-spacing: -2px;
+}
+
+a {
+  text-decoration: none;
+}
